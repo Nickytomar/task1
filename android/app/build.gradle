@@ -83,7 +83,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.task1"
+    namespace 'com.task.app'
     defaultConfig {
         applicationId 'com.task.app'
         minSdkVersion rootProject.ext.minSdkVersion
