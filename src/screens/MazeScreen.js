@@ -3,7 +3,6 @@ import { View, Button, TouchableOpacity, Text } from "react-native";
 import MazeGrid from "../components/MazeGrid";
 import { bfs } from "../algorithm/bfs";
 import { dfs } from "../algorithm/dfs";
-import { dfs } from "../algorithm/dfs";
 import { buildPath, maze, START, END } from "../constants/cellTypes";
 import { aStar } from "../algorithm/aStar";
 
