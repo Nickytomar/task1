@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import { View, Button, TouchableOpacity, Text } from "react-native";
 import MazeGrid from "../components/MazeGrid";
 import { bfs } from "../algorithm/bfs";
+import { dfs } from "../algorithm/dfs";
+import { dfs } from "../algorithm/dfs";
 import { buildPath, maze, START, END } from "../constants/cellTypes";
-import { aStar } from "../algorithm/ASearch";
+import { aStar } from "../algorithm/aStar";
 
 const algorithms = ["BFS", "DFS", "ASTAR"];
 
